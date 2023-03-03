@@ -1,4 +1,5 @@
-# 使用golang调用GPT-3的api
+
+# 使用golang调用GPT-3和GPT-3.5的api
 
 ## config/Config.toml配置文件
 
@@ -15,10 +16,11 @@ Url = "https://api.openai.com/v1/completions" #请求地址
  Top_p = 1                         #控制生成文本的多样性
  Frequency_penalty = 0             #用于降低生成文本中出现重复的单词或短语的概率
  Presence_penalty =  0.6           #用于降低生成文本中出现不相关单词或短语的概率
- Stop = ["HackerXiao:","Gpt-3-AI:"]  #返回信息的开头结尾                       
+ Stop = ["XXX:","Gpt-3-AI:"]  #返回信息的开头结尾                       
  N = 1                             #返回的信息数
 ```
 
 ## 界面
 
-![test](download.png)
+## 参考
+1. 参考[如何使用chatgpt](https://github.com/Simba830/chatgpt_html)
